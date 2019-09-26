@@ -11,16 +11,25 @@
 
   #dos {
     background-color: white;
-    height: 20vh;
+    height: 100vh;
     width: 100vw;
   }
   
   #tres {
-    background-image: url("https://image.freepik.com/foto-gratis/primer-plano-mesa-oscura-contra-fondo-blanco_23-2147907262.jpg");
-    background-size: cover;
+    /* background: url("https://image.freepik.com/foto-gratis/primer-plano-mesa-oscura-contra-fondo-blanco_23-2147907262.jpg"); */
+    /* background-color: grey;
+    background: radial-gradient(ellipse at center, rgb(49, 47, 49) 0%, rgb(0, 0, 0) 100%); */
     height: 100vh;
     width: 100vw;
-    
+    margin: 0;
+    padding: 0;
+  }
+
+  #cuatro{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
   }
 
   .navbar {
@@ -28,9 +37,14 @@
      background-color: transparent;
      background: transparent;
      border-color: transparent;
+     width: 100vw;
+     height: 10vh;
+     margin: 0;
+     padding: 0;
   }
   
   .navbar li { color: #000 } 
+
   #portfolio {
     border: solid white 2px;
     font-size: 60px;
@@ -38,8 +52,6 @@
     font-family: 'Ubuntu', sans-serif;
     display: inline;
     padding: .5%;
-
-
   }
 
   #portfolio1 {
@@ -76,16 +88,21 @@
   }
 
    #sobremi {
-     padding-top: 10px;
+    padding-top: 10px;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size:50px;
+    width:100vw;
+    margin: 0;
+    padding: 0;
   }
 
   #contacto {
     font-family: 'Roboto', sans-serif;
     font-size:50px;
-    width: 100%;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
   }
 
   .marginpic1 {
@@ -112,6 +129,14 @@
       background-image: none;
       background-color: gray;
     }
+    #portfolio {
+        border: solid white 2px;
+        font-size: 40px;
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        display: inline;
+        padding: .5%;
+      }
     }
 
   #twitter {
@@ -138,6 +163,9 @@
     margin-top: 30px;
     padding-bottom: 30px;
     margin-left: 19%;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
   }
   
 
@@ -146,10 +174,12 @@
     box-sizing: inherit;
     margin: 0;
     padding: 0;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
   }
   
   .panels {
-    min-height: 100vh;
+    min-height: 40vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -220,4 +250,50 @@
   .panel.open {
     /*font-size: 40px;*/  /*if we want to add transitions like this font-size (multiple transitions to one object), so use js in comments for toggleActive function*/
     flex: 3;
+  }
+
+
+  /* About me */
+
+  
+  
+  #stars {
+
+      display: block;
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      z-index: 1;
+  }
+
+  .row{
+      width: 100vw;
+  }
+
+
+
+
+
+  /* about me  */
+  canvas {
+    /* border: 1px soild green; */
+    width: 100vw;
+    height: 100vh;
+  }
+  .text-about {
+    /* display: inline-block; */
+    width: 100vw;
+    height: 10vh;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    /* padding: .3em; */
+    font-family: 'Ubuntu', sans-serif;
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    user-select: none;
+    transform: translate(-50%,400%);
+    color: rgba(255,255,255,.68);
+    /* border: .075em solid rgba(255,255,255,.1); */
   }

@@ -29,3 +29,6 @@ setTimeout(function(){
   p.style.display = "inline-block";
   typeEffect(p, speed);
 }, delay);
+
+
+

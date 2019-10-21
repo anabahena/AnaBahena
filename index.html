@@ -1,132 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 
 <body>
-
-  <div id="uno">
-    <!--Navbar -->
-    <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color">
-      <a class="navbar-brand" href="#">Logo</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
-        aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#uno">
-              Inicio
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#dos">
-              Proyectos</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="#tres">
-              Acerca de mi</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="#cuatro">
-              Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!--/.Navbar -->
-    <div id="portfolio1">
-      <div class="row">
-        <div id="portfolio1" class="col-xs-12 textcenter">
-          <div id="portfolio">Ana G. Bahena</div>
+  <div class="container-general">
+    <div class="navbar">
+      <!--Navbar -->
+      <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color col-lg-12 col-md-12 col-sm-8">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+          aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#hero">
+                Inicio
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">
+                Proyectos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#about-me">
+                Acerca de mi</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#contact">
+                Contacto</a>
+            </li>
+          </ul>
         </div>
-      </div>
-      <div class="column">
-        <div id="name" class="subname">Web Developer (Javascript)</div>
-      </div>
+      </nav>
     </div>
-  </div>
 
-<div id="dos" class="proyects">
-  <h1 class="title-proyects">Proyectos</h1>
-<div class="contenedor">
-	  	<div class="contenedor-cards">            
-		    <div class="contenedor-card-item">
-		      	<div class="contenedor-card-item-wrapper">
-		        	<img src="./IMG/burguer.jpg" alt="">
-		        	<div class="contenedor-info">
-		          		<div class="info">
-                    <p class="titulo">Burguer Queen</p>
-                    <br>
-		            		<a href="https://anabahena.github.io/MEX008-FE-Burger-Queen/" target=»_blank» >Ver proyecto</a>
-		          		</div>
-		          		<div class="fondo"></div>
-		        	</div>
-		      	</div>
-		    </div>
-		    <div class="contenedor-card-item">
-		      	<div class="contenedor-card-item-wrapper">
-		        	<img src="./IMG/league.jpg" alt="">
-		        	<div class="contenedor-info">
-		          		<div class="info">
-		            		<p class="titulo">Data Lovers</p>
-		            		<a href="https://anabahena.github.io/MEX-Data-Lovers-008/src/index.html" target=»_blank» >Ver proyecto</a>
-		          		</div>
-		          		<div class="fondo"></div>
-		        	</div>
-		      	</div>
-		    </div>
+
+    <!-- <div class="hero d-flex justify-content-center col-lg-12 col-md-12 col-sm-12"> -->
+    <div class="row hero col-lg-12 col-md-12 col-sm-8" id="hero" >
+      <div class="drop-shadow">
+        <div class="glass"></div>
+        <span>Ana G. Bahena</span>
+        <p>Web Developer (Javascript)</p>
       </div>
+
     </div>
-  </div>
 
-  <div id="tres" class="container-fluid">
-    <div class="loading">
-      <div class="loading-text">
-        <p class="loading-text-words">A</p>
-        <p class="loading-text-words">C</p>
-        <p class="loading-text-words">E</p>
-        <p class="loading-text-words">R</p>
-        <p class="loading-text-words">C</p>
-        <p class="loading-text-words">A</p>
-        &nbsp
-        <p class="loading-text-words">D</p>
-        <p class="loading-text-words">E</p>
-        &nbsp
-        <p class="loading-text-words">M</p>
-        <p class="loading-text-words">I</p>
-      </div>
-      <div class="aboutMe">
-        <div class="container-img">
-          <img src="./IMG/FOTO.jpeg" alt="" class='imgRedonda'>
+    <div id="projects" class="row projects col-lg-12 col-md-12 col-sm-2">
+      <!-- Cards -->
+      <div class="col container-cards">
+        <h1>Proyectos</h1>
+      <div class="row cards">
+        <div class="col cards__item">
+          <div class="card">
+            <div class="card__image card__image--burguer"></div>
+            <div class="card__content">
+              <div class="card__title">Changarro</div>
+              <p class="card__text">Este es un proyecto diseñado para la toma de pedidos de un restaurante, con el fin de agilizar los procesos y dar una mejor experiencia a los clientes. <br> <strong>Tecnologías Utilizadas: Angular, Angular Material, Firebase.</strong> </p>
+              <p></p>
+              <a href="https://anabahena.github.io/MEX008-FE-Burger-Queen/" target="_blank" class="btn btn--block card__btn">Código</a>
+            </div>
+          </div>
         </div>
-        <div id="table">
-            <h1>Mi nombre es Ana Luisa, soy una desarrolladora web apasionada por el aprendizaje constante y por contribuir a la mejora social. Para ello he buscado desarrollarme en dos áreas que pueden contribuir a tal objetivo: la tecnología y la psicología. Bajo este contexto estoy interesada en ser parte de un equipo donde pueda contribuir con mis conocimientos en proyectos creativos y de impacto social.</h1>
+        <div class="col cards__item">
+          <div class="card">
+            <div class="card__image card__image--data"></div>
+            <div class="card__content">
+              <div class="card__title">The best champions</div>
+              <p class="card__text">Este proyecto es una WebApp desarrollada para los amantes de League of Legends, en la cual pueden consultar a los mejores campeones, con el fin de construir la mejor estrategia de juego. <br> <strong>Tecnologías Utilizadas: Javascript, CSS, HTML.</strong></p>
+              <a href="https://anabahena.github.io/MEX-Data-Lovers-008/src/index.html" target="_blank" class="btn btn--block card__btn">Código</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
+    <div class="about-me" id="about-me">
+     <h1>Acerca de mi</h1>
+    </div>
 
+    <div class="contact" id="contact">
+      <p>Hola contacto</p>
+    </div>
 
-  <div id="cuatro" class="container-fluid">
-    <p id="contacto" class="container-fluid text-center">Contacto</p>
-      <button><i></i></button>
 
   </div>
-  </div>
-
-  <!-- footer -->
-
-  
   <script src="main.js"></script>
 </body>
 

@@ -92,24 +92,17 @@
   align-content: center;
   justify-content: center;
   border: 1px solid green;
+  background: white;
 
 }
 
 .about-me {
   width: 85.2rem;
-  height: 43.5rem;
+  height: 38rem;
   text-align: center;
   margin: 0;
   padding: 0;
   border: solid 2px yellow;
-}
-
-.contact {
-  width: 85.2rem;
-  height: 43.5rem;
-  margin: 0;
-  padding: 0;
-  border: solid 2px steelblue;
 }
 
 
@@ -144,6 +137,7 @@ img {
   display: flex;
   justify-content: center;
   align-content: space-between;
+  background: white;
 }
 
 .cards__item {
@@ -166,7 +160,7 @@ img {
   /* display: flex; */
   /* flex-direction: column; */
   overflow: hidden;
-
+  background: white;
 }
 
 .card:hover .card__image {
@@ -238,6 +232,7 @@ img {
 .container-cards {
   width: 85.2rem;
   height: 35rem;
+  background: white;
 }
 
 .container-cards h1 {
@@ -261,80 +256,35 @@ img {
   filter: blur(2px);
 } */
 
-.about-description {
+.img-about{
+  height: 37.7rem;
   width: 40rem;
-  height: auto;
-  margin-top: 200px;
-  font-size: 30px;
-  border: 4px solid black;
-  text-align: justify;
-  /* margin-left: -300px; */
-  background-color:rgba(194, 194, 194, 0.815);
-}
-
-.img-perfil {
-  border-radius: 80px;
-}
-
-.line {
+  background: #F3F3F6;
   display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: center;
-  width: 85.2rem;
-  height: 2rem;
-}
-
-.line-number {
-  width: 14px;
-  margin-right: 1.5rem;
-  opacity: 0.33;
-  user-select: none;
-}
-
-.line-content,
-.line-content mark {
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: 4px;
-  opacity: 85%;
-}
-
-.line-content mark {
-  letter-spacing: 6px;
-}
-
-/* .empty-line {
-  background: linear-gradient(to bottom, #252423, #252525);
-} */
-
-.empty-line .line-number {
-  display: block;
-}
-
-.empty-line .line-number-a {
-  opacity: 0.15;
-}
-
-.empty-line .line-number-b {
-  opacity: 0.1;
-}
-
-mark {
-  background: transparent;
-  color: rgba(70, 43, 43, 0.801);
-}
-
-/* .name-about{
-  text-align: center;
-} */
-
-.about-me .img-cod{
-  border: 1px solid blue;
-  height: 20rem;
-  width: 40rem;
   align-content: center;
   justify-content: center;
+  
+}
+
+.img-about h1{
+  margin-top: 18rem;
+  font-weight: bold;
+}
+
+.img-about img{
+  height: 18rem;
+  /* width: 10rem; */
+  margin-top: 10rem;
+  margin-right: -8rem;
+  z-index: 1;
+}
+
+.frame{
+  width: 6rem;
+  height: 6rem;
+  background: #cac8c8;
+  margin-top: 7rem;
+  margin-left: 2rem;
 }
 
 /* contact */
@@ -347,17 +297,19 @@ mark {
   font-size: 22px;
   opacity: .5;
     transition: .5s;
+  
 }
 
   .social a{
     color: #2D1F28;
     text-decoration: none;
     margin: 10px;
+    /* transform: rotate(-90deg); */
   }
 
   .social a:hover{
-    opacity: .5;
-    transition: .5s;
+    opacity: .3;
+    transition: .10s;
   }
 
 .logo-jv {
@@ -374,4 +326,32 @@ mark {
   position: fixed;
   right: 15px;
   bottom: 10px;
+}
+
+.text-about{
+  width: 30rem;
+  height: 10rem;
+  text-align: justify;
+  margin-left: 10rem;
+  font-size: 1.1rem;
+}
+
+.text-about .line{
+  width: 20rem;
+  /* height: .1rem; */
+  border: 2px solid #2D2D2C;
+  margin-bottom: -1rem;
+  margin-left: auto;
+}
+
+.contacto{
+  /* transform: rotate(90deg); */
+  width: 8rem;
+  height: 2rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-left: 20rem;
+  background: #cac8c8;
 }

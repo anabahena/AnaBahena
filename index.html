@@ -8,8 +8,7 @@
 <link rel="stylesheet" href="style.css">
 
 <body>
-  <div class="container-general">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12" >
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -34,7 +33,7 @@
 
 
     <!-- <div class="hero d-flex justify-content-center col-lg-12 col-md-12 col-sm-12"> -->
-    <div class="row hero col-lg-12 col-md-12 col-sm-8" id="hero">
+    <div class="row hero col-lg-12 col-md-12 col-sm-12" id="hero">
       <div class="drop-shadow">
         <div class="glass"></div>
         <span>Ana G. Bahena</span>
@@ -42,13 +41,13 @@
       </div>
     </div>
 
-    <div id="projects" class="row projects col-lg-12 col-md-12 col-sm-2">
+    <div id="projects" class="row projects col-lg-12 col-md-12 col-sm-12">
       <!-- Cards -->
       <div class="col container-cards">
         <h1>Proyectos</h1>
         <div class="row cards">
           <div class="col cards__item">
-            <div class="card">
+            <div class="card" >
               <div class="card__image card__image--burguer"></div>
               <div class="card__content">
                 <div class="card__title">Changarro</div>
@@ -68,7 +67,7 @@
                 <div class="card__title">The best champions</div>
                 <p class="card__text">Este proyecto es una WebApp desarrollada para los amantes de League of Legends, en
                   la cual pueden consultar a los mejores campeones, con el fin de construir la mejor estrategia de
-                  juego. <br> <strong>Tecnologías Utilizadas: Javascript, CSS, HTML.</strong></p>
+                  juego. <br><strong>Tecnologías Utilizadas: Javascript, CSS, HTML.</strong></p>
                 <a href="https://anabahena.github.io/MEX-Data-Lovers-008/src/index.html" target="_blank"
                   class="btn btn--block card__btn">Ver proyecto</a>
               </div>
@@ -78,12 +77,12 @@
       </div>
     </div>
 
-    <div class="row about-me" id="about-me">
-      <div class="col img-about">
+    <!-- <div class="row about-me" id="about-me"> -->
+      <div class="row img-about" id="about-me">
          <h1 class="col">Acerca de mí</h1> 
          <img class="col" src="./IMG/FOTO.jpeg" alt="">
       </div>
-      <div class="col">
+      <div class="col container-about">
         <div class="frame">
         </div>
         <div class="text-about">
@@ -113,8 +112,7 @@
               </div>
         </div>
       </div>
-      </div>
-    </div>
+      <!-- </div> -->
     <script src="main.js"></script>
 </body>
 

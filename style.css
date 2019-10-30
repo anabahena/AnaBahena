@@ -612,20 +612,30 @@ img {
 }
 
 @media(max-width: 414px) and (max-width : 736px) {
-  .drop-shadow span {
-    width: 24.5rem;
-  }
 
   .cards{
-    width: 50vh;
+    width: 55vh;
   }
+
+  .card{
+    height: 46vh;
+    width: 45vw;
+  }
+
+  .card__image {
+    height: 15vh;
+    width: 44vw;
+}
+.card__text{
+  text-align: justify;
+}
   .drop-shadow span {
     width: 23.5rem;
-    margin-top: -1rem;
+    margin-top: 15rem;
+    margin-left: 1rem;
   }
   .drop-shadow p{
-    margin-top: -40rem;
-    margin-top: 15rem;
+    margin-top: 33rem;
   }
   .img-about img {
     margin-top: -7rem;

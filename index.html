@@ -8,25 +8,53 @@
 <link rel="stylesheet" href="style.css">
 
 <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12" >
+      <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <!-- <a class="navbar-brand" href="#">Ana G. Bahena</a> -->
-          <div class="collapse navbar-collapse navegacion" id="navbarTogglerDemo03">
+          <a class="navbar-brand" href="#hero">Inicio</a>
+          <div class="collapse navbar-collapse navegacion" id="navbarTogglerDemo03"> 
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="#hero">Inicio<span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Proyectos<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">Proyectos</a>
+                <a class="nav-link" href="#about-me">Acerca de mí</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#about-me">Acerca de mí</a>
+                  <a class="nav-link" href="#knowleges">Habilidades</a>
               </li>
+              <li class="nav-item"> -->
+                <!-- <a class="nav-link" href="#knowledges">Habilidades</a> -->
+            <!-- </li>
             </ul>
           </div>
+        </nav> -->
+
+        <nav class="menu-desktop">
+          <ul class="mynav ">
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#about-me">Acerca de mí</a></li>
+            <li><a href="knowledges">Habilidades</a></li>
+            <span class="target"></span>
+          </ul>
         </nav>
+
+        <div class="hamburger">
+            <div class="_layer -top"></div>
+            <div class="_layer -mid"></div>
+            <div class="_layer -bottom"></div>
+          </div>
+          <nav class="menuppal">
+              <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#about-me">Acerca de mí</a></li>
+                <li><a href="#knowledges">Habilidades</a></li>
+              </ul>
+            </nav>
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -37,15 +65,15 @@
       <div class="drop-shadow">
         <div class="glass"></div>
         <span>Ana G. Bahena</span>
-        <p>Web Developer (Javascript)</p>
+        <p>Desarrolladora Web</p>
       </div>
     </div>
 
-    <div id="projects" class="row projects col-lg-12 col-md-12 col-sm-12">
+    <div id="projects" class="row projects col-lg-12 col-md-12 col-sm-12 justify-content-sm-center">
       <!-- Cards -->
-      <div class="col container-cards">
+      <div class="row container-cards d-flex justify-content-center">
         <h1>Proyectos</h1>
-        <div class="row cards">
+        <div class="row cards col-sm-12 col-xs-12">
           <div class="col cards__item">
             <div class="card" >
               <div class="card__image card__image--burguer"></div>
@@ -104,12 +132,11 @@
                     <a href="" target="_blank">
                   <i class="fa fa-download"></i></i>
                 </a>
-              
-                <!-- <a href="" target="_blank">
-                <i class="fa fa-phone"> 5567907071</i>
-              </a> -->
-              
               </div>
+        </div>
+
+        <div id="knowledges">
+          <mdb-icon fab icon="js"></mdb-icon>
         </div>
       </div>
       <!-- </div> -->

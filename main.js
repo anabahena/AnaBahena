@@ -1,19 +1,12 @@
-// const button = document.getElementById('button-nav');
+// selector
+var menu = document.querySelector('.hamburger');
 
+// method
+function toggleMenu (event) {
+  this.classList.toggle('is-active');
+  document.querySelector( ".menuppal" ).classList.toggle("is_active");
+  event.preventDefault();
+}
 
-// const menuHamburguer = () =>{
-//     const menu = document.getElementById('nav-opt')
-//     if(menu.classList.contains('disabled-menu')){
-//         console.log('mostrar');   
-//         menu.classList.remove('disabled-menu');
-//         menu.classList.add('enabled-menu');
-//     }else{
-//         menu.classList.remove('enabled-menu');
-//         menu.classList.add('disabled-menu')
-//         console.log('ocultar');
-//     }
-//     console.log('apretando botón');
-// }
-
-// button.addEventListener('click', menuHamburguer)
-
+// event
+menu.addEventListener('click', toggleMenu, false);

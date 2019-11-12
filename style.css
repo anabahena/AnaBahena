@@ -329,13 +329,13 @@ img {
 .btn--block {
   justify-content: center;
   /* display: block; */
-  width: 40vw;
+  width: 45vw;
 }
 
 .cards {
   list-style: none;
   width: 100vh;
-  height: 30vw;
+  height: 90vw;
   margin: 0;
   padding: 0;
   display: flex;
@@ -437,8 +437,9 @@ img {
 
 .container-cards h1 {
   text-align: center;
-  margin-top: 1rem;
-  padding: 0;
+  /* margin-top: 1rem; */
+  padding: 2rem;
+  margin: 1rem;
 
 }
 
@@ -584,6 +585,16 @@ img {
   height: 100vh;
 }
 
+#knowledges{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.knowledges-img{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 
 /* .navbar-nav .nav-item .nav-link{
   color: #000;
@@ -680,13 +691,13 @@ img {
 
   .cards__item {
     padding: 1rem;
-    width: 10vw;
-    height: 10vh;
+    width: 15vw;
+    height: 50vh;
   }
 
   .card__image {
-    height: 35vh;
-    width: 40vw;
+    width: 100vw;
+    height: 40vh;
   }
 
   .card {
@@ -751,10 +762,17 @@ img {
     text-align: center;
   }
 
+  .container-cards{
+    width: 100vw;
+    height: 80vh;
+  }
+
   .container-cards h1 {
     text-align: center;
     padding: 0;
     margin: 0;
+    height: 3rem;
+    width: 100vw;
     /* margin-top: .8rem; */
   }
 
@@ -835,21 +853,34 @@ img {
   }
 
   .cards{
-    width: 55vh;
-    /* flex-direction: column-reverse; */
+    height: 75vh;
+    width: 50vw;
   }
 
   .card{
-    height: 46vh;
-    width: 45vw;
+    height: 35vh;
+    width: 60vw;
   }
+
+.cards__item {
+    padding: 1rem;
+    width: 100vw;
+    height: 37vh;
+}
 
   .card__image {
     height: 15vh;
-    width: 44vw;
+    width: 60vw;
 }
 .card__text{
   text-align: justify;
+  width: 53vw;
+  font-size: 0.6rem;
+
+}
+
+.card__title{
+  width: 50vw;
 }
   .drop-shadow span {
     width: 25rem;
@@ -940,13 +971,22 @@ img {
   .container-cards {
     margin: 0;
     padding: 0;
+    height: 100vh;
+    width: 100vw;
   }
 
-  .text-about h1
- {
+  .text-about h1{
     width: 100vw;
     margin: 0;
     text-align: end;
+  }
+
+  .container-cards h1{
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+    height: 3rem;
+    width: 100vw;
   }
 
   .text-about p{
